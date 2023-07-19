@@ -5,11 +5,11 @@ import json
 from multiprocessing import Pool, Manager
 
 
-url = "https://api.cloudflare.com/client/v4/accounts/df91b60d266eef17b744e15350b6ee23/intel/domain"
+url = "https://api.cloudflare.com/client/v4/accounts/<account_id>/intel/domain"
 
 headers = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer tBPSpc7228pl4Gmq4fOtHeQlKPSTROP1DSEh1pEU",
+    "Authorization": "Bearer <api_key>",
 }
 
 domains = open("radar-200.csv", "r").read().split("\n")
