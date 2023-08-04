@@ -161,6 +161,8 @@ body {
 #domain {
     font-family: 'Roboto Mono';
     font-size: 3em;
+    width: 100%;
+    word-wrap: break-word;
 }
 
 /* progress bar */
